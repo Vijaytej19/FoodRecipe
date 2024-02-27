@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import styles from "./search.module.css"
 const url = "https://api.spoonacular.com/recipes/complexSearch";
-const apiKey = "3e8171d64f95455eb774cc981cc68a4b";
+const apiKey = "11a4aa42677c4dc2bc20a7ad99d36a1f";
 export default function Search({foodData,setFoodData}) {
   const [query, setQuery] = useState("");
   //Syntax of useEffect Hook
